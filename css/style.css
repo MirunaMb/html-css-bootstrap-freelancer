@@ -1,0 +1,43 @@
+/* COMMONS AND VARIABLES  */
+
+:root {
+    --header-color: #2C3E50;
+    --jumbotron:#1ABC9C;
+    --top-footer: #3A546D;
+    --bot-footer: var(--header-color)
+}
+
+body {
+    /* debug */
+    /* background-color: #8f9396; */
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.bordered{
+    border: 2px dashed color red;
+}
+
+/* ########################################################################################### */
+
+/* HEADER */
+header{
+    height: 70px;
+    position:fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--header-color);
+    
+}
