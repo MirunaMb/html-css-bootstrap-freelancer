@@ -86,6 +86,45 @@ header{
     background-color: white;
     margin-left: 10px;
 }
+/* CONTACT SECTION */
+.icon-b:before {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.icon-b:after {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
 .center{
     text-align: center;
+}
+.contact input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.contact input:focus {
+    box-shadow: none;
+    border-color: lightgray
+}
+
+
+
+.contact textarea:focus {
+    box-shadow: none;
+    border-color: lightgray
 }
