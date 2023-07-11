@@ -128,3 +128,15 @@ header{
     box-shadow: none;
     border-color: lightgray
 }
+/* FOOTER-TOP */
+.footer-top{
+    background-color:var(--top-footer) ;
+    
+}
+.freelance a{
+    color:var(--jumbotron);
+}
+/* FOOTER-BOT */
+.footer-bot{
+    background-color:var(--bot-footer) ;
+}
