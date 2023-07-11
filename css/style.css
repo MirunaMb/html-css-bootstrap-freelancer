@@ -63,3 +63,29 @@ header{
     margin-top: 20px;
     border: 1px solid black;
 }
+/* ABOUT */
+.about {
+    background-color: #1ABC9C;
+}
+.icon-w:before {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.icon-w:after {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    max-width: 100px;
+    height: 4px;
+    background-color: white;
+    margin-left: 10px;
+}
+.center{
+    text-align: center;
+}
